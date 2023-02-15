@@ -6,9 +6,10 @@ import Float "mo:base/Float";
 actor DBank{
   // stable keyword turns a variable into persistent variable (preserves the state/previous value)
   stable var currentValue: Float = 300;
-  // currentValue := 100;
+  // currentValue := 300;
 
   stable var startTime = Time.now();
+  // startTime := Time.now();
   Debug.print(debug_show(startTime));
 
   // let id = 3574847767754;
